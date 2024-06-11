@@ -23,14 +23,19 @@ button {
     padding-bottom: 10px;
     color: white;
     font-weight: bold;
-    width: 200px;
+    width: 50px;
     margin-bottom: 5px;
     border-radius: 5px;
 }
 
 #increment-btn {
+    background: darkgreen;
+}
+
+#decrement-btn {
     background: darkred;
 }
+
 
 #save-btn {
     background: darkgreen;

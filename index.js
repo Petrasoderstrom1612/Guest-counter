@@ -1,11 +1,19 @@
 
-let countEl = document.getElementById("count-el") //keeps track of the count
-let incrementBtn = document.getElementById("increment-btn") //utilized to trigger the increase
+let countEl = document.getElementById("count-el") //grabbing the html for h2
+let incrementBtn = document.getElementById("increment-btn") //grabbing the html for button
+let decrementBtn = document.getElementById("decrement-btn") //grabbing the html for button
 
 let count = 0
-countEl.innerText = count //displays count in html
+countEl.innerText = count 
 
-incrementBtn.addEventListener("click",function(){ //modifies count on trigger
+incrementBtn.addEventListener("click",function(){ //click on button makes changes
     count++
     console.log(count)
+    countEl.innerText = count 
+})
+
+decrementBtn.addEventListener("click",function(){ //click on button makes changes
+    count--
+    console.log(count)
+    countEl.innerText = count 
 })
