@@ -13,9 +13,11 @@ incrementBtn.addEventListener("click",function(){ //click on button makes change
 })
 
 decrementBtn.addEventListener("click",function(){ //click on button makes changes
+    if (count > 0){
     count--
     console.log(count)
     countEl.innerText = count 
+    }
 })
 
 function reset() {
