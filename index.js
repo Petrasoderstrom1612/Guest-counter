@@ -17,3 +17,10 @@ decrementBtn.addEventListener("click",function(){ //click on button makes change
     console.log(count)
     countEl.innerText = count 
 })
+
+function reset() {
+    count = 0
+    countEl.innerText = count 
+}
+
+

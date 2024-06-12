@@ -35,7 +35,7 @@ h2 {
     margin-bottom: 20px;
 }
 
-button {
+.button {
     font-size: 2em;
     border: none;
     padding-top: 10px;
@@ -48,10 +48,24 @@ button {
     margin: 0 10px;
 }
 
+.reset-btn{
+    border: none;
+    display: flex;
+    justify-content: flex-end;
+    background: azure;
+    padding-top: 4em;
+}
+
+.reset-btn img{
+width: 30px;
+height: auto;
+}
+
 .button-div {
     padding-top: 2em;
     display: flex;
 }
+
 
 #increment-btn {
     background: darkgreen;
