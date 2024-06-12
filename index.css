@@ -40,12 +40,12 @@ h2 {
     border: none;
     padding-top: 10px;
     padding-bottom: 10px;
-    color: white;
     font-weight: bold;
     width: 200px;
     margin-bottom: 5px;
     border-radius: 5px;
     margin: 0 10px;
+    color: white;
 }
 
 .reset-btn{
@@ -71,7 +71,7 @@ height: auto;
     background: darkgreen;
 }
 
-#decrement-btn {
+.decrement-btn {
     background: darkred;
 }
 
