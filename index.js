@@ -20,7 +20,7 @@ decrementBtn.addEventListener("click",function(){ //click on button makes change
     }
 })
 
-function reset() {
+function reset() { //you trigger the function on the reset button, but the change change happens on CountEl, that is why you do not need to create resetBtn DOM
     count = 0
     countEl.innerText = count 
 }
